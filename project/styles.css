@@ -1,0 +1,100 @@
+/* 전체 페이지 스타일 */
+body {
+    font-family: Arial, sans-serif; /* 전체 폰트 */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* 배경색 */
+    text-align: center; /* 기본적으로 텍스트를 중앙 정렬 */
+}
+
+/* 제목 스타일 */
+h1, h2, h3 {
+    color: #333;
+    text-align: left;
+    margin-left: 20px;
+}
+
+/* 문단 스타일 */
+p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+    margin: 10px 20px;
+    text-align: left;
+}
+
+/* 링크 스타일 */
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #007bff; /* 파란색 강조 */
+}
+
+/* 버튼 스타일 */
+.button {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #3498db; /* 기본 파란색 */
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+    border: 2px solid transparent;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.button:hover {
+    background-color: #2980b9; /* 진한 파랑 */
+    transform: scale(1.05);
+    border: 2px solid white;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.button:active {
+    background-color: #1f6690;
+    transform: scale(0.98);
+}
+
+/* 목록 스타일 */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 20px;
+    text-align: left;
+}
+
+li {
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* 이미지 스타일 */
+img {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 5px;
+    max-width: 100%; /* 반응형 지원 */
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+/* 강조 블록 (기존 노란색 div 개선) */
+div {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fffae6; /* 부드러운 노란색 */
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
